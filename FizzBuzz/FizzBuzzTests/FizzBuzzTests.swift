@@ -14,4 +14,8 @@ final class FizzBuzzTests: XCTestCase {
     func test() {
         XCTAssert(5 == 9-4)
     }
+    
+    func test2() {
+        XCTAssert(4 % 2 == 0)
+    }
 }
