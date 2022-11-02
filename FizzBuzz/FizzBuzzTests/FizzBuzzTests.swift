@@ -10,4 +10,8 @@ import XCTest
 
 final class FizzBuzzTests: XCTestCase {
     
+    
+    func test() {
+        XCTAssert(5 == 9-4)
+    }
 }
